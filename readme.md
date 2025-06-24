@@ -7,13 +7,13 @@
 1. Clonar o repositório:
 
    ```sh
-   git clone https://github.com/luan-tavares/unifaat-devweb-base-project
+   git clone https://github.com/sleyck021/ESCOLA-DO-ROCK
    ```
 
 2. Entrar na pasta do projeto:
 
    ```sh
-   cd unifaat-devweb-base-project
+   cd ESCOLA-DO-ROCK
    ```
 
 3. Criar o arquivo `.env` na raiz do projeto copiando o .env.example:
