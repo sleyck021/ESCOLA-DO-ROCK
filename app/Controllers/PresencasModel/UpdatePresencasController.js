@@ -8,7 +8,7 @@ export default async (request, response) => {
 
     const id_aluno = requestBody.aluno;
     const id_aula = requestBody.aula;
-    const presenca = requestBody.presenca;
+    const presenca = (requestBody.presenca === "true");
 
     const data = {}
 

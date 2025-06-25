@@ -19,7 +19,7 @@ export default (function () {
 
     // Rota para listar arquivos na pasta 'public'
     // NÃO SERÁ CHAMADO CASO TENHA A CAMADA DE NGINX COM ARQUIVOS ESTÁTICOS
-    router.get('/', ListPublicFilesController);
+    //router.get('/', ListPublicFilesController);
 
     router.use('/', api);
 

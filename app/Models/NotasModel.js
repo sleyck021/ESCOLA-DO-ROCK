@@ -1,6 +1,8 @@
 import sequelize from '../../config/sequelize.js';
 import { DataTypes } from 'sequelize';
 import TurmaModel from './TurmasModel.js';
+import AlunosModel from './AlunosModel.js';
+import AvaliacoesModel from './AvaliacoesModel.js';
 
 export default (function () {
 

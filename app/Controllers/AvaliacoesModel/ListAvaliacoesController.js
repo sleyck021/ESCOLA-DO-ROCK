@@ -1,5 +1,6 @@
 import { Sequelize } from 'sequelize';
 import AvaliacoesModel from "../../Models/AvaliacoesModel.js"
+import TurmasModel from '../../Models/TurmasModel.js';
 
 export default async (request, response) => {
 
@@ -17,7 +18,13 @@ export default async (request, response) => {
             const data = await AvaliacoesModel.findAll({
                 limit: limit + 1,
                 offset: offset,
-                order: [["id_avaliacao", "asc"]]
+                order: [["id_avaliacao", "asc"]],
+                include: [
+                    {
+                        model: TurmasModel,
+                        as: "turmas"
+                    }
+                ]
             });
     
             const hasMore = (data.length > limit);
