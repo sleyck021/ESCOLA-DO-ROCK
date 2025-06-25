@@ -83,5 +83,3 @@ Naor Muckemberg: 6324552
 ---
 
 > Dúvidas ou sugestões? Abra uma issue no [repositório](https://github.com/sleyck021/ESCOLA-DO-ROCK).
-
-kmsdiajcnanc
