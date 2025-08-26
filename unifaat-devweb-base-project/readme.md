@@ -54,3 +54,5 @@
 O servidor estará disponível em: [http://localhost:8080](http://localhost:8080)
 
 Observação: ./Insomnia.yml pode ser utilizado no insomnia
+
+(Atualização para o TF-25/08)
